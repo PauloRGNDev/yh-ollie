@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="bg-card border-t border-border py-12">
       <div className="container mx-auto px-4">
         <div className="text-center">
-          <div className="flex items-center justify-center gap-3 mb-6">
+          {/* <div className="flex items-center justify-center gap-3 mb-6">
             <Instagram className="w-6 h-6 text-accent" />
             <p className="text-lg">
               Fale com a YHollie diretamente pelo Instagram:{" "}
@@ -18,7 +18,7 @@ export function Footer() {
                 @yhollie.ofc
               </a>
             </p>
-          </div>
+          </div> */}
 
           <div className="border-t border-border/50 pt-6">
             <p className="text-muted-foreground">© 2025 YHollie. Todos os direitos reservados.</p>

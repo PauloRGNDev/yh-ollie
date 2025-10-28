@@ -6,7 +6,10 @@ export function Header() {
       <div className="container mx-auto px-6 py-2">
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
-            <img src="/assets/logo-yh-transparent.png" alt="YHollie Logo" className="h-8 w-auto" />
+            <a href="#begin">
+              <img src="/assets/logo-yh-transparent.png" alt="YHollie Logo" className="h-8 w-auto" />
+            </a>
+            
           </div>
           <div className="hidden md:flex items-center space-x-6">
             <a

@@ -22,19 +22,20 @@ export function CtaSection() {
 
           <Button
             size="lg"
-            className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-accent/30"
+            className="bg-[#25D366] hover:bg-[#1ebe5d] text-white px-8 py-4 text-lg rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-green-500/30"
             asChild
           >
-            <a
-              href="https://www.instagram.com/yhollie.ofc/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3"
-            >
-              <Instagram className="w-6 h-6" />
-              Entre em contato pelo Instagram
-              <ArrowRight className="w-5 h-5" />
-            </a>
+
+          <a
+            href="https://wa.me/553496530015?text=Olá!%20Vim%20pelo%20site%20da%20Yhollie%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20criação%20de%20sites."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3"
+          >
+          <ArrowRight className="w-5 h-5" />
+          Fale conosco no WhatsApp
+        </a>
+
           </Button>
 
           <p className="text-sm text-muted-foreground mt-4">Resposta rápida garantida • Sem compromisso</p>
